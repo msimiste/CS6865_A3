@@ -1,0 +1,9 @@
+  #!/bin/tcsh
+  dropped 'awk -n '\''$1=="d"' out.nam | head'
+ #306acks 'awk -n '\''$1=="r"&&$7=="0"&&$9=="ack"&&$21=="306"'\'' out.nam| head'
+ #614 'awk -n '\''$15=="614"'\'' out.nam'
+ #616 'awk -n '\''$15=="616"'\'' out.nam'
+ #621 'awk -n '\''$15=="621"'\'' out.nam'
+ #818 'awk -n '\''$15=="818"'\'' out.nam'
+ #850 'awk -n '\''$15=="850"'\'' out.nam'
+ #914 'awk -n '\''$15=="914"'\'' out.nam'
